@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navigation from './components/navigation/Navigation';
 import Logo from './components/logo/Logo';
+import Imageform from './components/Imagelinkform/Imageform';
 import 'tachyons';
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
     <div className="App">
         <Navigation />
         < Logo />
-        {/*< Imagefrom />
-        < FaceRecognition />*/}
+        < Imageform />
+        {/*< FaceRecognition />*/}
     </div>
   );
 }
