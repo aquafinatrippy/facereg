@@ -1,3 +1,7 @@
+html{
+  background: linear-gradient(45deg, rgba(251,166,225,1) 0%, rgba(251,166,225,1) 32%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 62%, rgba(104,171,237,1) 96%, rgba(104,171,237,1) 100%);
+  height: 100vh;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,10 +9,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(to right, #fcecfc 0%,#fba6e1 31%,#fd89d7 70%,#ff7cd8 100%);
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+button{
+  cursor: pointer;
 }
