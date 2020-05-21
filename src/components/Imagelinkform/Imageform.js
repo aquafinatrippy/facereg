@@ -6,6 +6,7 @@ const Imageform = ({ OnInputChange, onButtonSubmit }) => {
         <div>
             <p className='f3 '>
                 {'See maagiline leht tuvastab nägusi, proovi järgi'}
+                
 
             </p>
             <div className='center'>
@@ -14,6 +15,7 @@ const Imageform = ({ OnInputChange, onButtonSubmit }) => {
                 <button className='w-30 grow f4 link ph3 pv2 dib white bg-light-purple' onClick={onButtonSubmit} >Tuvasta</button>
             </div>
             </div>
+            {'Enter picture url to use face recognition'}
         </div>
     );
 }
