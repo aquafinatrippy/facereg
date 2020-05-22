@@ -6,22 +6,12 @@ const SignIn = ({onRouteChange}) => {
         <main className="pa4 black-80">
         <div className="measure">
           <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-            <legend className="f1 fw6 ph0 mh0 center">Logi sisse</legend>
-            <p>Login doesnt work, just press login to use.</p>
-            <div className="mt3">
-              <label className="db fw6 lh-copy f6" htmlFor="email-address">Email</label>
-              <input className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="email" name="email-address"  id="email-address" />
-            </div>
-            <div className="mv3">
-              <label className="db fw6 lh-copy f6" htmlFor="password">Parool</label>
-              <input className="b pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100" type="password" name="password"  id="password" />
-            </div>
+            <legend className="f1 fw6 ph0 mh0 center">Face recognition app</legend>
+            <p>Detects faces on picture, all done using React.js. Purpose was to learn React.</p>
+            
           </fieldset>
           <div className="">
-            <input className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" value="Logi sisse" onClick={() => onRouteChange('home')} />
-          </div>
-          <div className="lh-copy mt3">
-            <p href="#0" className="f6 link dim black db" onClick={() => onRouteChange('register')}>Registeeru</p>
+            <input className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib" type="submit" value="Start using" onClick={() => onRouteChange('home')} />
           </div>
         </div>
       </main> 
